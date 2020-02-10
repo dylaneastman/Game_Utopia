@@ -1,0 +1,4 @@
+import pickle
+games = {1:['Sandbox','Garrys mod','valve','valve corporation','steam', 'dec 24 2004', '8/10', 'single/multiplayer','$15.00',' ',' ']} 
+datafile = open("game_lib.pickle", "wb")
+pickle.dump(games,datafile)
